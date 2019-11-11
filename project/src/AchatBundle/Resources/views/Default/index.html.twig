@@ -1,0 +1,136 @@
+{% extends 'baseClient.html.twig' %}
+{% block content %}
+    <!-- Start Bradcaump area -->
+    <div class="ht__bradcaump__area bg-image--3" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bradcaump__inner text-center">
+                        <h2 class="bradcaump-title">Achat</h2>
+                        <nav class="bradcaump-content">
+                            <a class="breadcrumb_item" href="index.html">Acceuil</a>
+                            <span class="brd-separetor">/</span>
+                            <span class="breadcrumb_item active">Achat</span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Bradcaump area -->
+    <!-- cart-main-area start -->
+    <div class="cart-main-area section-padding--lg bg--white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 ol-lg-12">
+                    <form method="post" action={{ path('afficher_achete') }}>
+                        <div class="table-content wnro__table table-responsive">
+
+                            <table>
+                                <thead>
+                                <tr class="title-top">
+                                    <th class="product-thumbnail">Image</th>
+                                    <th class="product-name">Livre</th>
+                                    <th class="product-price">Prix</th>
+                                    <th class="product-quantity">Type</th>
+                                    <th class="product-quantity">Quantité</th>
+                                    <th class="product-subtotal-title">Total</th>
+                                    <th class="">Ouvrir Fichier</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% for ligneCommande in b %}
+                                    <tr>
+                                        <td class="product-thumbnail"><a href="#"><img
+                                                        src="{{ ligneCommande.bId.img }}" alt="product img"></a></td>
+                                        <td class="product-name"><a href="#">{{ ligneCommande.bId.nom }}</a></td>
+                                        <td id="prix-unitaire-{{ ligneCommande.id }}" class="product-price"><span
+                                                    class="amount">{{ ligneCommande.price }}</span></td>
+                                        {% if ligneCommande.type == 0 %}
+                                            <td>Copie</td>
+                                        {% endif %}
+                                        {% if ligneCommande.type == 1 %}
+                                            <td>PDF</td>
+                                        {% endif %}
+                                        {% if ligneCommande.type == 2 %}
+                                            <td>Sonore</td>
+                                        {% endif %}
+                                        <td class="product-quantity-{{ ligneCommande.id }}">
+                                            {{ ligneCommande.quantite }}</td>
+                                        <td id="prix-ligne-commande-{{ ligneCommande.id }}"
+                                            class="product-subtotal">{{ ligneCommande.quantite * ligneCommande.price }}
+                                        </td>
+                                        <td id="ouvrir-fichier-{{ ligneCommande.id}}">
+                                            {% if ligneCommande.type == 0 %}
+                                                <a>Copie</a>
+                                            {% endif %}
+                                            {% if ligneCommande.type == 1 %}
+                                                <a href="{{ path('afficher_pdf', { 'slug': ligneCommande.bId.pdfPath }) }}" target="_blank">PDF</a>
+                                            {% endif %}
+                                            {% if ligneCommande.type == 2 %}
+                                                <a href="#">Sonore</a>
+                                            {% endif %}
+
+                                        </td>
+
+                                    </tr>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <!--<div class="navigation">
+                            {#{{ knp_pagination_render(b) }}#}
+                        </div>-->
+
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="cartbox__total__area">
+                        <div class="cart__total__amount">
+                            <span>Total Achat</span>
+                            <span id="total-panier" onload="totalPanier()"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cart-main-area end -->
+    <div class="blocking-background" style="display: none" onclick="hide()"></div>
+    <div class="popup" tabindex="-1" role="dialog" style="display: none">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="modal-title-text"class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="hide()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="modal-body-text"></p>
+                </div>
+                <div class="modal-footer">
+                    <a id="confirmer" type="button" class="submit-button" href="" }}>Confirmer</a>
+                    <a id="abort" type="button" class="submit-button" data-dismiss="modal"
+                       onclick="hide()">Fermer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var total = 0;
+            $(".product-subtotal").each(function(i, obj) {
+                total = total + parseFloat($(obj).text());
+                console.log(total);
+            });
+            $("#total-panier").html(total);
+        });
+    </script>
+{% endblock %}

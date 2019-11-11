@@ -1,0 +1,46 @@
+livres_index:
+    path:     /
+    defaults: { _controller: "LivreBundle:Livres:index" }
+    methods:  [GET, POST, DELETE]
+
+livres_show:
+    path:     /{id}/show
+    defaults: { _controller: "LivreBundle:Livres:show" }
+    methods:  GET
+
+livres_new:
+    path:     /new
+    defaults: { _controller: "LivreBundle:Livres:new" }
+    methods:  [GET, POST]
+
+livres_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "LivreBundle:Livres:edit" }
+    methods:  [GET, POST]
+
+livres_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "LivreBundle:Livres:delete" }
+    methods:  [GET, POST, DELETE]
+
+livres_shou:
+    path:     /{id}/shou
+    defaults: { _controller: "LivreBundle:Livres:shou" }
+    methods:  GET
+
+all:
+    path:     /all
+    defaults: { _controller: "LivreBundle:Livres:all" }
+
+neww:
+    path:     /neww
+    defaults: { _controller: "LivreBundle:Livres:neww" }
+find:
+    path:     /find/{id}
+    defaults: { _controller: "LivreBundle:Livres:find" }
+supp:
+    path:     /supp/{id}
+    defaults: { _controller: "LivreBundle:Livres:supp" }
+update:
+    path:     /update
+    defaults: { _controller: "LivreBundle:Livres:update" }

@@ -1,0 +1,13 @@
+achat_homepage:
+    path:     /
+    defaults: { _controller: AchatBundle:Default:index }
+
+afficher_pdf:
+    path:     /afficherpdf/{slug}
+    defaults: { _controller: AchatBundle:Default:afficherpdf }
+
+afficher_achete:
+   path:      /afficher
+   defaults: { _controller: AchatBundle:Default:afficher }
+
+

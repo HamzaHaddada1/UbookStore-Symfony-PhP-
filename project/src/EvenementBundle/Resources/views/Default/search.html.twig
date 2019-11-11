@@ -1,0 +1,61 @@
+{% extends 'BaseAdmin.html.twig' %}
+
+
+{% block container %}
+    <form method="POST">
+    <input type="text"  placeholder="Search" name ="nom">
+    <input type="submit" value="valider"></input>
+    </form>
+    <br>
+    <h1>Events list</h1>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nom</th>
+            <th>Lieu</th>
+            <th>Date</th>
+            <th>Heure</th>
+            <th>Description</th>
+            <th>Capacite</th>
+            <th>Nbreparticipant</th>
+            <th>Img</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        {% for event in events %}
+            <tr>
+                <td><a href="{{ path('event_show', { 'id': event.id }) }}">{{ event.id }}</a></td>
+                <td>{{ event.nom }}</td>
+                <td>{{ event.lieu }}</td>
+                <td>{{ event.date }}</td>
+                <td>{{ event.heure }}</td>
+                <td>{{ event.description }}</td>
+                <td>{{ event.capacite }}</td>
+                <td>{{ event.nbreParticipant }}</td>
+                <td>{{ event.img }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('event_show', { 'id': event.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('event_edit', { 'id': event.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('event_new') }}">Create a new event</a>
+        </li>
+    </ul>
+
+{% endblock %}

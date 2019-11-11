@@ -1,0 +1,56 @@
+panier_homepage:
+    path:     /
+    defaults: { _controller: PanierBundle:Default:index }
+
+panier_supprimer:
+    path:     /supprimer/{id}
+    defaults: { _controller: PanierBundle:Default:supprimer }
+
+panier_ajouter:
+    path:     /ajouter
+    defaults: { _controller: PanierBundle:Default:ajouter }
+
+panier_modifier:
+    path:     /modifier
+    defaults: { _controller: PanierBundle:Default:modifier }
+
+panier_achat:
+    path:     /achat
+    defaults: { _controller: PanierBundle:Default:achat }
+
+panier_all:
+    path:     /all
+    defaults: { _controller: PanierBundle:Default:all }
+
+panier_allbooks:
+    path:    /allBooks
+    defaults: { _controller: PanierBundle:Default:allBooks }
+
+panier_allbooksimages:
+    path:   /allBooksImages
+    defaults: { _controller: PanierBundle:Default:allBooksImages }
+
+panier_getbooknames:
+    path:   /getBookNames
+    defaults: { _controller: PanierBundle:Default:getBookNames }
+
+panier_new:
+    path:   /new
+    defaults: { _controller: PanierBundle:Default:addLigneCommande }
+
+panier_findbook:
+    path:   /findbook/{id}
+    defaults: { _controller: PanierBundle:Default:findBook }
+
+panier_supprimerLigneCommande:
+    path:  /supprimerligne/{id}
+    defaults: { _controller: PanierBundle:Default:deleteLigneCommande }
+
+panier_modifierLigneCommande:
+    path:  /modifierl
+    defaults: { _controller: PanierBundle:Default:modifierLigneCommande }
+
+panier_supprimerPlusDeux:
+    path:  /supprimerPlusQueDeuxJours
+    defaults: { _controller: PanierBundle:Default:supprimerLigneCommandePlusDeDeuxJours }
+

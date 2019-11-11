@@ -1,0 +1,103 @@
+forum_mobil:
+    resource: "@ForumMobilBundle/Resources/config/routing.yml"
+    prefix:   /frmMobil
+
+admin_forum:
+    resource: "@AdminForumBundle/Resources/config/routing.yml"
+    prefix:   /adminforum
+
+auteur:
+    resource: "@AuteurBundle/Resources/config/routing.yml"
+    prefix:   /auteur
+
+mlk_stat:
+    resource: "@MlkStatBundle/Resources/config/routing.yml"
+    prefix:   /mlk
+
+achat:
+    resource: "@AchatBundle/Resources/config/routing.yml"
+    prefix:   /achat
+
+admin:
+    resource: "@AdminBundle/Resources/config/routing.yml"
+    prefix:   /home
+
+livre:
+    resource: "@LivreBundle/Resources/config/routing.yml"
+    prefix:   /livre
+
+maison_edition:
+    resource: "@MaisonEditionBundle/Resources/config/routing.yml"
+    prefix:   /maisonedition
+
+forum:
+    resource: "@ForumBundle/Resources/config/routing.yml"
+    prefix:   /forum
+
+user:
+    resource: "@userBundle/Resources/config/routing.yml"
+    prefix:   /user
+
+promotions_client:
+    resource: "@PromotionsBundle/Resources/config/routing.yml"
+    prefix:   /promotions
+
+emprunt_client:
+    resource: "@EmpruntBundle/Resources/config/routing.yml"
+    prefix:   /emprunt
+
+locaux_client:
+    resource: "@LocauxBundle/Resources/config/routing.yml"
+    prefix:   /locaux
+
+contact_client:
+    resource: "@ContactBundle/Resources/config/routing.yml"
+    prefix:   /contact
+
+echange_client:
+    resource: "@EchangeBundle/Resources/config/routing.yml"
+    prefix:   /echange
+
+evenement_admin:
+    resource: "@EvenementBundle/Resources/config/routing.yml"
+    prefix:   /evenement
+
+evenement_client:
+    resource: "@ParticipantBundle/Resources/config/routing.yml"
+    prefix:   /participant
+
+accueil:
+    resource: "@AccueilBundle/Resources/config/routing.yml"
+    prefix:   /accueil
+
+panier:
+    resource: "@PanierBundle/Resources/config/routing.yml"
+    prefix:   /panier
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+# app/config/routing.yml
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+# IMPORTANT
+# Import the following routes only if when you start the project
+# those routes are not available :
+
+fos_user_profile:
+    resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
+    prefix: /profile
+
+fos_user_register:
+    resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
+    prefix: /register
+
+fos_user_resetting:
+    resource: "@FOSUserBundle/Resources/config/routing/resetting.xml"
+    prefix: /resetting
+
+fos_user_change_password:
+    resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
+    prefix: /profile

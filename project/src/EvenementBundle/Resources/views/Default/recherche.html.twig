@@ -1,0 +1,77 @@
+{% extends 'BaseAdmin.html.twig' %}
+
+
+{% block container %}
+    <form method="post">
+        <table>
+            <tr><td>Recherche</td><td><input type="text" name="nom" id="name"/></td></tr><br>
+        </table>
+
+    </form>
+    <br>
+    <br>
+
+    <br>
+    <h1>Events list</h1>
+
+    <div id="res"></div>
+    <div id="affichage">
+        <table border="1" >
+            <tr><td>a</td><td>b</td><td>c</td><td>d</td><td>e</td> <td>f</td><td>g</td></tr>
+            {% for i in events %}
+                <tr>
+                    <td>{{ i.id }}</td>
+                    <td>{{ i.nom }}</td>
+                    <td>{{ i.lieu }}</td>
+                    <td>{{ i.date }}</td>
+                    <td>{{ i.heure}}</td>
+                    <td>{{ i.description}}</td>
+                    <td>{{ i.capacite }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+
+    <script>
+        $("#name").keyup(
+            function(){
+                var nom = $("#name").val();
+                var DATA = 'nom='+ nom;
+
+                $.ajax({
+                    type: "POST",
+                    url:   "{{ path('event_recherche') }}",
+                    data: DATA,
+                    success: function (data) {
+                        console.log(data);
+                       $("#affichage").hide();
+                        $("#res").html("<table border = '1'>"+
+                            "<td>a</td> <td>b</td>" +
+                            "<td>c</td><td>d</td>"+
+                            "<td>e</td><td>f</td><td>g</td></table>");
+                        $.each(data,function (k,el) {
+                            //    console.log(el);
+                            $('#res').append(
+                                "<tr>"+
+                                "<td>"+el.id+"</td>"+
+                                "<td>"+el.nom+"</td>"+
+                                "<td>"+el.lieu+"</td>"+
+                                "<td>"+el.date+"</td>"+
+                                "<td>"+el.heure+"</td>"+
+                                "<td>"+el.description+"</td>"+
+                                "<td>"+el.capacite+"</td>"
+                                +"</tr>"
+
+
+                            );
+
+                        })
+                        $('#res').append("</table>");
+
+                    }
+                })
+            }
+        )
+    </script>
+{% endblock %}

@@ -1,0 +1,33 @@
+maisonedition_index:
+    path:     /
+    defaults: { _controller: "MaisonEditionBundle:Maisonedition:index" }
+    methods:  GET
+
+maisonedition_show:
+    path:     /{id}/show
+    defaults: { _controller: "MaisonEditionBundle:Maisonedition:show" }
+    methods:  GET
+
+maisonedition_new:
+    path:     /new
+    defaults: { _controller: "MaisonEditionBundle:Maisonedition:new" }
+    methods:  [GET, POST]
+
+maisonedition_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "MaisonEditionBundle:Maisonedition:edit" }
+    methods:  [GET, POST]
+
+maisonedition_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "MaisonEditionBundle:Maisonedition:delete" }
+    methods:  DELETE
+
+maisonedition_supprimer:
+    path:     supprimer/{id}
+    defaults: { _controller: "MaisonEditionBundle:Maisonedition:supprimer" }
+
+
+
+
+

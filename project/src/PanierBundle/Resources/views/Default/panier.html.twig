@@ -1,0 +1,182 @@
+{% extends 'baseClient.html.twig' %}
+{% block content %}
+    <!-- Start Bradcaump area -->
+    <div class="ht__bradcaump__area bg-image--3" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bradcaump__inner text-center">
+                        <h2 class="bradcaump-title">Panier</h2>
+                        <nav class="bradcaump-content">
+                            <a class="breadcrumb_item" href="index.html">Acceuil</a>
+                            <span class="brd-separetor">/</span>
+                            <span class="breadcrumb_item active">Panier</span>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Bradcaump area -->
+    <!-- cart-main-area start -->
+    <div class="cart-main-area section-padding--lg bg--white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 ol-lg-12">
+                    <form method="post" action={{ path('panier_modifier') }}>
+                        <div class="table-content wnro__table table-responsive">
+
+                            <table>
+                                <thead>
+                                <tr class="title-top">
+                                    <th class="product-thumbnail">Image</th>
+                                    <th class="product-name">Livre</th>
+                                    <th class="product-price">Prix</th>
+                                    <th class="product-quantity">Type</th>
+                                    <th class="product-quantity">Quantité</th>
+                                    <th class="product-subtotal-title">Total</th>
+                                    <th class="product-remove">Supprimer</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% for ligneCommande in p %}
+                                    <tr>
+                                        <td id="product-stock-{{ ligneCommande.id }}" hidden><span class="amount">{{ ligneCommande.bookId.stock }}</span></td>
+                                        <td class="product-thumbnail"><a href="#"><img
+                                                        src="{{ ligneCommande.bookId.img }}" alt="product image"></a></td>
+                                        <td class="product-name"><a href="#">{{ ligneCommande.bookId.nom }}</a></td>
+                                        <td id="prix-unitaire-{{ ligneCommande.id }}" class="product-price"><span
+                                                    class="amount">{{ ligneCommande.bookId.prix }}</span></td>
+                                        {% if ligneCommande.bookType == 0 %}
+                                                <td>Copie</td>
+                                        {% endif %}
+                                        {% if ligneCommande.bookType == 1 %}
+                                                <td>PDF</td>
+                                        {% endif %}
+                                        {% if ligneCommande.bookType == 2 %}
+                                                <td>Sonore</td>
+                                        {% endif %}
+                                        <td class="product-quantity-{{ ligneCommande.id }}">
+                                            <input
+                                                    id="quantite-ligne-commande-{{ ligneCommande.id }}"
+                                                    name="{{ ligneCommande.id }}"
+                                                    type="number" value="{{ ligneCommande.quantite }}" min="1" max="{{ ligneCommande.bookId.stock }}"
+                                                    onclick="changePrice({{ ligneCommande.id }})"></td>
+                                        <td id="prix-ligne-commande-{{ ligneCommande.id }}"
+                                           class="product-subtotal">{{ ligneCommande.quantite * ligneCommande.bookId.prix }}
+                                        </td>
+                                        <td class="product-remove"><p style="cursor: pointer" onclick="myAlert({{ ligneCommande.id }}, 1)">X</p></td>
+                                    </tr>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="cartbox__btn">
+                            <ul class="cart__btn__list d-flex flex-wrap flex-md-nowrap flex-lg-nowrap justify-content-between">
+                                <li ><a href="#">Coupon Code</a></li>
+                                <li><input class="submit-button"id="submit-update" type="submit" value="Modifier Panier" ></li>
+                                <li><input class="submit-button"id="submit-update" type="submit" value="Acheter" formaction="{{ path('panier_achat') }}"></li>
+                                <li><a href="#">Apply Code</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="cartbox__total__area">
+                        <div class="cart__total__amount">
+                            <span>Total Panier</span>
+                            <span id="total-panier" onload="totalPanier()"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cart-main-area end -->
+    <div class="blocking-background" style="display: none" onclick="hide()"></div>
+    <div class="popup" tabindex="-1" role="dialog" style="display: none">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="modal-title-text"class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="hide()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="modal-body-text"></p>
+                </div>
+                <div class="modal-footer">
+                    <a id="confirmer" type="button" class="submit-button" href="" }}>Confirmer</a>
+                    <a id="abort" type="button" class="submit-button" data-dismiss="modal"
+                       onclick="hide()">Fermer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var nbrClick = 1;
+        document.addEventListener("DOMContentLoaded", function() {
+            var total = 0;
+            $(".product-subtotal").each(function(i, obj) {
+                total = total + parseFloat($(obj).text());
+            });
+            $("#total-panier").html(total);
+        });
+
+        //Type 1 pour la confirmation de la suppression
+        //Type 2 pour l'alerte concernant la qantité et le stock
+        function myAlert(id, type) {
+
+            $(".blocking-background").attr("style", "display : block");
+            $(".popup").attr("style", "display: block");
+            if(type == 1){
+                $("#confirmer").attr("href", "{{ app.request().getBaseURL() ~ "/panier/supprimer/" }}" + id);
+                $("#modal-body-text").text("Veuillez confirmer la suppression");
+                $("#modal-title-text").text("Suppression");
+            }else{
+                $("#confirmer").attr("style", "display: none");
+                $("#modal-title-text").text("Stock Insuffisant");
+                $("#modal-body-text").text("Veuillez essayer ultérieurement");
+            }
+        }
+
+        function hide() {
+            $(".blocking-background").attr("style", "display: none");
+            $(".popup").attr("style", "display: none");
+        }
+
+        function changePrice(id) {
+            var idOfStock = "#product-stock-".concat(id);
+            var idOfQuantity = "#quantite-ligne-commande-".concat(id);
+            var idOfSubTotal = "#prix-ligne-commande-".concat(id);
+            var idOfUnitairyPrice = "#prix-unitaire-".concat(id);
+
+            var theQuantity = $(idOfQuantity).val();
+            var thePrice = $(idOfUnitairyPrice).text();
+            var theStock = $(idOfStock).text();
+            $(idOfSubTotal).text(thePrice * theQuantity);
+
+            var total = 0;
+            $(".product-subtotal").each(function (i, obj) {
+                total = total + parseFloat($(obj).text());
+            });
+            $("#total-panier").html(total);
+
+            if(theQuantity == theStock) {
+                if(nbrClick == 2){
+                    myAlert(id, 2);
+                    nbrClick = 0;
+                }
+                nbrClick = nbrClick + 1;
+            }
+        }
+
+
+
+    </script>
+{% endblock %}

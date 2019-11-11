@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}
+
+        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/datatables.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/fullcalendar.min.css')}}">
+        <link rel="stylesheet" href="{{ asset('css/bootadmin.min.css')}}">
+
+
+        <script src="{{ asset('js/jquery.min.js')}}"></script>
+        <script src="{{ asset('js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{ asset('js/datatables.min.js')}}"></script>
+        <script src="{{ asset('js/moment.min.js')}}"></script>
+        <script src="{{ asset('js/fullcalendar.min.js')}}"></script>
+        <script src="{{ asset('js/bootadmin.min.js')}}"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load('current', {'packages': ['corechart']});
+            google.charts.setOnLoadCallback(drawChart3);
+            google.charts.setOnLoadCallback(drawChart4);
+
+            function drawChart3() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Year', 'Sales', 'Expenses'],
+                    ['2013', 1000, 400],
+                    ['2014', 1170, 460],
+                    ['2015', 660, 1120],
+                    ['2016', 1030, 540]
+                ]);
+
+                var options = {
+                    title: 'Company Performance',
+                    hAxis: {title: 'Year', titleTextStyle: {color: '#333'}},
+                    vAxis: {minValue: 0}
+                };
+
+                var chart = new google.visualization.AreaChart(document.getElementById('chart_div_3'));
+                chart.draw(data, options);
+            }
+
+            function drawChart4() {
+                var data = google.visualization.arrayToDataTable([
+                    ['Country', 'Popularity'],
+                    ['Germany', 200],
+                    ['United States', 300],
+                    ['Brazil', 400],
+                    ['Canada', 500],
+                    ['France', 600],
+                    ['RU', 700]
+                ]);
+
+                var options = {};
+
+                var chart = new google.visualization.GeoChart(document.getElementById('chart_div_4'));
+
+                chart.draw(data, options);
+            }
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118868344-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-118868344-1');
+        </script>
+
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-4097235499795154",
+                enable_page_level_ads: true
+            });
+        </script>
+    {% endblock %}
+
+</head>
+<body class="bg-light">
+{% block header %}
+
+    <nav class="navbar navbar-expand navbar-dark bg-primary">
+        <a class="sidebar-toggle mr-3" href="#"></a>
+        <a class="navbar-brand" href="https://bootadmin.net"><img src="{{ asset('icons/ubook.png') }}" alt="logo" width="20px" height="20px">U_Book Store</a>
+
+        <div class="navbar-collapse collapse">
+            <ul class="navbar-nav ml-auto">
+
+
+                <li class="nav-item dropdown">
+                    <a href="#" id="dd_user" class="nav-link dropdown-toggle" data-toggle="dropdown"><img src="{{ asset('icons/zeus.png') }}" alt="logo" width="20px" height="20px"> Equipe Zeus</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dd_user">
+                        <a href="#" class="dropdown-item">Profile</a>
+                        <a href="#" class="dropdown-item">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="d-flex">
+        <div class="sidebar sidebar-dark bg-dark">
+            <ul class="list-unstyled">
+
+                <li>
+                    <a href="#sm_base" data-toggle="collapse"><img src="{{ asset('icons/users.png') }}" alt="logo" width="20px" height="20px">
+                        Gestion Membre
+                    </a>
+                    <ul id="sm_base" class="list-unstyled collapse">
+                        <li><a href="http://localhost/phpmyadmin/index.php"><img src="{{ asset('icons/addAuteur.png') }}" alt="logo" width="20px" height="20px">  Ajouter Membre</a></li>
+                        <li><a href=""><img src="{{ asset('icons/delete.png') }}" alt="logo" width="20px" height="20px">Supprimer Membre</a></li>
+
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#sm_evenement" data-toggle="collapse"><img src="{{ asset('icons/event.png') }}" alt="logo" width="20px" height="20px">
+                        Gestion Evenement
+                    </a>
+                    <ul id="sm_evenement" class="list-unstyled collapse">
+                        <li><a href="{{ path('event_ajout') }}"><img src="{{ asset('icons/addAuteur.png') }}" alt="logo" width="20px" height="20px">  Ajouter Evenement</a></li>
+                        <li><a href="{{ path('event_index') }}"><img src="{{ asset('icons/delete.png') }}" alt="logo" width="20px" height="20px">Liste des evenements</a></li>
+
+
+                    </ul>
+                </li>
+
+                <li><a href="{{ path('comments1_index') }}"><img src="{{ asset('icons/forum.png') }}" alt="logo" width="20px" height="20px"> Gestion Forum</a></li>
+
+                <li>
+                    <a href="#sm_maison" data-toggle="collapse"><img src="{{ asset('icons/maison.png') }}" alt="logo" width="20px" height="20px">
+                        Gestion Maison Edition
+                    </a>
+                    <ul id="sm_maison" class="list-unstyled collapse">
+                        <li><a href="{{ path('maisonedition_new') }}"><img src="{{ asset('icons/addAuteur.png') }}" alt="logo" width="20px" height="20px">Ajouter Maison Edition</a></li>
+                        <li><a href="{{ path('maisonedition_index') }}"><img src="{{ asset('icons/delete.png') }}" alt="logo" width="20px" height="20px">Liste Maison Edition</a></li>
+
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="{{ path('reclamation_index') }}" ><img src="{{ asset('icons/recla.png') }}" alt="logo" width="20px" height="20px">
+                        Reclamation
+                    </a>
+
+                </li>
+
+
+                <!--<li><a href=""><img src="{{ asset('icons/recla.png') }}" alt="logo" width="20px" height="20px"> Reclamation</a></li> -->
+                <li>
+                    <a href="{{ path('livres_index') }}" data-toggle="collapse"><img src="{{ asset('icons/books.png') }}" alt="logo" width="20px" height="20px">
+                        Gestion Des Livres
+                    </a>
+
+                </li>
+
+                <li>
+                    <a href="#sm_echange" data-toggle="collapse"><img src="{{ asset('icons/echange.png') }}" alt="logo" width="20px" height="20px">
+                        Gestion Des Echanges
+                    </a>
+                    <ul id="sm_echange" class="list-unstyled collapse">
+                        <li><a href="{{ path('echange_new') }}"><img src="{{ asset('icons/addAuteur.png') }}" alt="logo" width="20px" height="20px">  Ajouter Echange</a></li>
+                        <li><a href="{{ path('echange_index') }}"><img src="{{ asset('icons/maison.png') }}" alt="logo" width="20px" height="20px">Liste Echange</a></li>
+
+
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#sm_locaux" data-toggle="collapse"><img src="{{ asset('icons/local.png') }}" alt="logo" width="20px" height="20px">
+                        Gestion Des Locaux
+                    </a>
+                    <ul id="sm_locaux" class="list-unstyled collapse">
+                        <li><a href="{{ path('locaux_new') }}"><img src="{{ asset('icons/addAuteur.png') }}" alt="logo" width="20px" height="20px">  Ajouter local</a></li>
+                        <li><a href="{{ path('locaux_index') }}"><img src="{{ asset('icons/maison.png') }}" alt="logo" width="20px" height="20px">Afficher locaux</a></li>
+
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="{{ path("auteur_index") }}" ><img src="{{ asset('icons/author.png') }}" alt="logo" width="20px" height="20px">
+                        Gestion Des Auteurs
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ path('emprunt_index') }}" ><img src="{{ asset('icons/emprunt.png') }}" alt="logo" width="20px" height="20px">
+                        Gestion Des Emprunts
+                    </a>
+
+                </li>
+                <li>
+                    <a href="{{ path("comments_index") }}" ><img src="{{ asset('icons/author.png') }}" alt="logo" width="20px" height="20px">
+                        Gestion Des Commentaires
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content p-4">
+            {% block container %}{% endblock %}
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+{% endblock %}
+</body>
+</html>

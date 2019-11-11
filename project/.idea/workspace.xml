@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80274e09-7ecc-4b2f-b290-981e7e4379c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/ChangePassword/change_password_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/edit_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/list_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/new_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/show_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/check_email.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/email.txt.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/check_email.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/email.txt.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/request.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/request_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/reset.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Resetting/reset_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/authBase.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/baseAdmin.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/baseClient.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/emprunt/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/emprunt/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/emprunt/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/emprunt/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/empruntClient/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/empruntClient/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/empruntClient/index2.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/empruntClient/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/empruntClient/show2.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/maisonedition/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/indexClient.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Resources/views/reclamation/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccueilBundle/AccueilBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccueilBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccueilBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccueilBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccueilBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AchatBundle/AchatBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AchatBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AchatBundle/Entity/Bought.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AchatBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AchatBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AchatBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AchatBundle/Resources/views/Default/shopGrid.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminBundle/AdminBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/AdminForumBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Controller/CommentsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Entity/Comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Entity/Topic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Form/CommentsType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Resources/views/Default/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Resources/views/Default/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminForumBundle/Tests/Controller/CommentsControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/AuteurBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Controller/AuteurController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Entity/Auteur.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Form/AuteurType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Resources/views/Default/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Resources/views/Default/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuteurBundle/Tests/Controller/AuteurControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContactBundle/ContactBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContactBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContactBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContactBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContactBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Controller/EchangeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/EchangeBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Entity/Echange.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Form/EchangeType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/Gmap.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/edit1.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/index1.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/new1.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/pdf.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/pdf1.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/show1.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/test.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EchangeBundle/Tests/Controller/EchangeControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Controller/EmpruntController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Controller/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Controller/ReclamationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/EmpruntBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Entity/Emprunt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Entity/FosGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Entity/FosUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Entity/Maisonedition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Entity/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Entity/Reclamation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/EventListener/UploadImageListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Form/EmpruntType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Form/PostType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Form/ReclamationType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/ImageUpload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Repository/EmpruntRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Repository/ReclamationRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Resources/config/routing/emprunt.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Resources/config/routing/empruntClient.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Resources/config/routing/post.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Resources/config/routing/reclamation.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Resources/views/rechercher.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Tests/Controller/EmpruntControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Tests/Controller/PostControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/Tests/Controller/ReclamationControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpruntBundle/new/rechercher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Controller/EventController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Controller/MailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Controller/StatController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Entity/Event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Entity/Mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/EvenementBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Form/EventType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Form/MailType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumBundle/ForumBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumMobilBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumMobilBundle/Controller/TopicController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumMobilBundle/Entity/Comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumMobilBundle/Entity/Membre.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumMobilBundle/Entity/Topic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumMobilBundle/ForumMobilBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumMobilBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumMobilBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ForumMobilBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Controller/LivresController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Entity/Livres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Entity/promo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Form/LivresType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Form/promoType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/LivreBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/QRCODE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Repository/promoRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Resources/views/Default/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Resources/views/Default/go.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Resources/views/Default/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/Tests/Controller/LivresControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/autoload_function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/autoload_register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/AbstractEnum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/BitArray.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/BitMatrix.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/BitUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/CharacterSetEci.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/EcBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/EcBlocks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/ErrorCorrectionLevel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/FormatInformation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/Mode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/ReedSolomonCodec.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Common/Version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Encoder/BlockPair.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Encoder/ByteMatrix.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Encoder/Encoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Encoder/MaskUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Encoder/MatrixUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Encoder/QrCode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Exception/ExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Exception/OutOfBoundsException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Exception/RuntimeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Exception/UnexpectedValueException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Exception/WriterException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Color/Cmyk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Color/ColorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Color/Gray.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Color/Rgb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Image/AbstractRenderer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Image/Decorator/DecoratorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Image/Decorator/FinderPattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Image/Eps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Image/Png.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Image/RendererInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Image/Svg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/RendererInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Text/Html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Renderer/Text/Plain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/src/BaconQrCode/Writer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Common/BitArrayTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Common/BitMatrixTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Common/BitUtilsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Common/ErrorCorrectionLevelTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Common/FormatInformationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Common/ModeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Common/ReedSolomonCodecTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Common/VersionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Encoder/EncoderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Encoder/MaskUtilTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Encoder/MatrixUtilTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Renderer/Text/HtmlTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/BaconQrCode/Renderer/Text/TextTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LivreBundle/bacon-qr-code/tests/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Controller/LocauxController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Entity/Locaux.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Form/LocauxType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/LocauxBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Resources/views/Default/Gmap.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Resources/views/Default/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Resources/views/Default/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocauxBundle/Tests/Controller/LocauxControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Controller/MaisoneditionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Entity/Maisonedition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Form/MaisoneditionType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/MaisonEditionBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/views/Default/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/views/Default/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaisonEditionBundle/Tests/Controller/MaisoneditionControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Controller/CommentsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Entity/Comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Entity/Topic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Form/CommentsType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/MlkStatBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Resources/views/Default/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Resources/views/Default/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MlkStatBundle/Tests/Controller/CommentsControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PanierBundle/Entity/Panier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PanierBundle/Resources/views/Default/404.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Controller/EventController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Entity/Participant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/ParticipantBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Resources/config/routing/event.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Resources/config/routing/participant.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Resources/views/Default/index2.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Resources/views/Default/search.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Resources/views/Default/search1.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Resources/views/Default/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Tests/Controller/EventControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParticipantBundle/Tests/Controller/ParticipantControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PromotionsBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PromotionsBundle/PromotionsBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PromotionsBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PromotionsBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PromotionsBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/userBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/userBundle/Entity/Group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/userBundle/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/userBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/userBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/userBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/userBundle/userBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AchatBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AdminBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AdminForumBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/AuteurBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ContactAdminBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ContactClientBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/EchangeAdminBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/EchangeClientBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/EmpruntClientBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/EvenementAdminBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/EvenementClientBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ForumBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ForumMobilBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/LocauxAdminBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/LocauxClientBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/MaisonEdAdminBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/MaisonEditionBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/MlkStatBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PromotionsAdminBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PromotionsClientBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/userBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/RedSparrow.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/TheBody.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootadmin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery.rateyo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery.rateyo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery.rateyo.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/bicon.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/fakeloader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/fotorama.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/mainmenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/material-design-iconic-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/nivo-preview-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/nivo-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/pe-icon-7-stroke.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/slick.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/bicon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/bicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/bicon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/bicon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont-1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/slick-1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/Comment-add-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/addAuteur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/banComment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/books.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/deleteAuteur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/deleteComment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/documentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/echange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/editcomment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/emprunt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/event.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/exclamAuthor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/forum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Add_50px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Available_Updates_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Barcode_Scanner_100px_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Barcode_Scanner_100px_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Books_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Brake_Warning_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Combo_Chart_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Combo_Chart_50px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Conference_50px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Data_Matrix_Code_50px_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Data_Transfer_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Data_Transfer_50px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Delete_50px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Discussion_Forum_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Discussion_Forum_50px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Image_100px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Lock_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Male_User_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Museum_50px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Museum_50px_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Password_1_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Pause_Button_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Picture_100px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Play_Button_Circled_50px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Quill_With_Ink_50px_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Quill_With_Ink_50px_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Shuffle_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Sync_50px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Today_50px_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Today_50px_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_Update_50px_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_User_64px_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/icons8_View_50px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/likeComment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/local.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/maison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/pp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/recla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/sens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/ubook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/updateAuteur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/zeus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/about/big-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/about/big-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/about/team/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/about/team/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/about/team/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/about/team/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/about/team/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/about/team/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/best-sell-product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/best-sell-product/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/best-sell-product/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/best-sell-product/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/best-sell-product/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/best-sell-product/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/best-sell-product/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/best-sell-product/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/big-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/blog-3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/blog-3/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/blog-3/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/blog-3/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/blog-3/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/comment/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/sm-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/sm-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/sm-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/sm-img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/blog/sm-img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/books/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/brand/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/brand/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/brand/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/brand/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/brand/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/brand/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/brand/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fancybox/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fancybox/fancybox_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fancybox/fancybox_loading@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fancybox/fancybox_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fancybox/fancybox_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/fancybox/fancybox_sprite@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/blog-link-post2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/button-compare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/button-email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/button-wishlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/button-wishlist_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/cart1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/cart2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/cart3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/cart4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/cart_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/compare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/compare2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/em.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/em2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/fotorama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/fotorama@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_account2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_cart2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_cart3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_search2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_search3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_setting_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_title2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/icon_title3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/lc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/lc2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/line_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/links_static.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/links_static2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/links_static3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/links_static4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/links_static5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/links_static6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/links_static7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/links_static8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/nav_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/payment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/ph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/ph2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/product-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/search1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/search2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/search_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/wishlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/icons/wishlist2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logo/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/others/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/others/banner_left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/others/toggle_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/others/toggle_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/png-img/headphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/png-img/payment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/png-img/shipping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/big-2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/big-2/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/big-2/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/big-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/portfolio/md-img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/pos-bg/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/big-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/sm-3/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/sm-3/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/sm-3/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/sm-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/sm-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/product/sm-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/testimonial/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/testimonial/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/testimonial/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/jquery.rateyo.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootadmin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.rateyo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.rateyo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.rateyo.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/vendor/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/vendor/modernizr-3.5.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/loststars.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/weHaveAlwaysLived.pdf" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" executionDataType="PHAR" phpInterpreterId="64f9672d-aad0-4220-8f5e-e5624fc8943a" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1523251429">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="39" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="13" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.430" value="1" />
+          <entry key="project.open.time.487" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.opened" value="50" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.actions">
+        <counts>
+          <entry key="create-project_from_ComposerProjectGenerator" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options">
+        <counts>
+          <entry key="create-project_with_--ansi_--no-interaction_--no-progress.default" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="15" />
+          <entry key="html" value="1" />
+          <entry key="js" value="4" />
+          <entry key="json" value="4" />
+          <entry key="less" value="1" />
+          <entry key="php" value="147" />
+          <entry key="png" value="2" />
+          <entry key="twig" value="124" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="5" />
+          <entry key="yml" value="101" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="15" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="4" />
+          <entry key="Less" value="1" />
+          <entry key="PHP" value="147" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Twig" value="124" />
+          <entry key="XML" value="5" />
+          <entry key="YAML" value="101" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="200" />
+          <entry key="json" value="2" />
+          <entry key="php" value="4156" />
+          <entry key="twig" value="5983" />
+          <entry key="txt" value="686" />
+          <entry key="yml" value="1145" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="200" />
+          <entry key="JSON" value="2" />
+          <entry key="PHP" value="4156" />
+          <entry key="PLAIN_TEXT" value="686" />
+          <entry key="Twig" value="5983" />
+          <entry key="YAML" value="1145" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2567">
+              <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LivreBundle/Controller/LivresController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding>
+                <element signature="e#42#72#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Controller/EventController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3961">
+              <caret line="250" selection-start-line="250" selection-end-line="250" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PanierBundle/Entity/Panier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/baseClient.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LivreBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PanierBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="36" />
+              <folding>
+                <element signature="e#43#73#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AccueilBundle/Resources/views/Default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PanierBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" column="87" selection-start-line="54" selection-start-column="87" selection-end-line="54" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sele</find>
+      <find>style</find>
+      <find>myAlert</find>
+      <find>form</find>
+      <find>modifier</find>
+      <find>Even</find>
+      <find>Vous</find>
+      <find>test</find>
+      <find>myAle</find>
+      <find>conf</find>
+      <find>Total</find>
+      <find>quick</find>
+      <find>cart</find>
+      <find>livre.im</find>
+      <find>emp</find>
+      <find>Gérer</find>
+      <find>maiso</find>
+      <find>wn</find>
+      <find>ratin</find>
+      <find>echan</find>
+      <find>maison</find>
+      <find>echang</find>
+      <find>recla</find>
+      <find>MLK</find>
+      <find>FORUM</find>
+      <find>aute</find>
+      <find>best se</find>
+      <find>app_dev</find>
+      <find>livre</find>
+      <find>findby</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\wamp64\www\project</dir>
+      <dir>C:\wamp64\www\project\web\css</dir>
+    </dirStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="s doctrine:schema:update --force " />
+      <command text="s server:run " />
+      <command text="c require ob/highcharts-bundle " />
+      <command text="s generate:bundle" />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="c require knplabs/knp-paginator-bundle" />
+      <command text="s server:run " />
+      <command text="s doctrine:schema:update --force" />
+      <command text="c require endroid/qr-code" />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="c clear-cache" />
+      <command text="s cache:clear" />
+      <command text="curl -s http://getcomposer.org/installer | php" />
+      <command text="php composer.phar update nomaya/social-bundle" />
+      <command text="c require knplabs/knp-snappy-bundle  " />
+      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s generate:bundle" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="c require cmen/google-charts-bundle" />
+      <command text="s cache:clear" />
+      <command text="s server:run " />
+      <command text="s generate:bundle" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" />
+        <option value="$USER_HOME$/Desktop/template ADM/aDM.html" />
+        <option value="$PROJECT_DIR$/src/MaisonEditionBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/maisonedition/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/views/Default/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/views/Default/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/MaisonEditionBundle/Form/MaisoneditionType.php" />
+        <option value="$PROJECT_DIR$/src/MaisonEditionBundle/Controller/MaisoneditionController.php" />
+        <option value="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/views/Default/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/MaisonEditionBundle/Entity/Maisonedition.php" />
+        <option value="$PROJECT_DIR$/src/PanierBundle/Entity/Panier.php" />
+        <option value="$PROJECT_DIR$/web/css/custom.css" />
+        <option value="$PROJECT_DIR$/vendor/jjalvarezl/pdfjs-viewer-bundle/jjalvarezl/PDFjsViewerBundle/Controller/ViewerController.php" />
+        <option value="$PROJECT_DIR$/src/AchatBundle/Entity/Bought.php" />
+        <option value="$PROJECT_DIR$/src/AchatBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/EvenementBundle/Controller/StatController.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/EchangeBundle/Form/EchangeType.php" />
+        <option value="$PROJECT_DIR$/src/LivreBundle/Entity/Livres.php" />
+        <option value="$PROJECT_DIR$/src/LocauxBundle/Entity/Locaux.php" />
+        <option value="$PROJECT_DIR$/src/MlkStatBundle/Controller/CommentsController.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/ParticipantBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/PanierBundle/Resources/views/Default/panier.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/empruntClient/index2.html.twig" />
+        <option value="$PROJECT_DIR$/src/AchatBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AchatBundle/Resources/views/Default/shopGrid.html.twig" />
+        <option value="$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/mailform.html.twig" />
+        <option value="$PROJECT_DIR$/src/EvenementBundle/Controller/MailController.php" />
+        <option value="$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/EchangeBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/baseClient.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/baseAdmin.html.twig" />
+        <option value="$PROJECT_DIR$/src/AchatBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/AccueilBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/MaisonEditionBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/ParticipantBundle/Resources/views/Default/index2.html.twig" />
+        <option value="$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/PanierBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/PanierBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/LivreBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/LivreBundle/Controller/LivresController.php" />
+        <option value="$PROJECT_DIR$/src/ParticipantBundle/Controller/EventController.php" />
+        <option value="$PROJECT_DIR$/src/ParticipantBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/EvenementBundle/Controller/EventController.php" />
+        <option value="$PROJECT_DIR$/src/EvenementBundle/Resources/config/routing.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jjalvarezl/pdfjs-viewer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/ob/highcharts-bundle" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/nomaya/social-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy-bundle" />
+      <path value="$PROJECT_DIR$/vendor/cmen/google-charts-bundle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="22" />
+    <option name="y" value="52" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AccueilBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AccueilBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AccueilBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AccueilBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AccueilBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PanierBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PanierBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5edma" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\project\app" />
+      <recent name="C:\wamp64\www\project\src\MaisonEditionBundle\Resources\views\Default" />
+      <recent name="C:\wamp64\www\project\src\LivreBundle\Entity" />
+      <recent name="C:\wamp64\www\project\app\Resources\views" />
+      <recent name="C:\wamp64\www\project\web\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\project\src\ForumMobilBundle" />
+      <recent name="C:\wamp64\www\project\web" />
+      <recent name="C:\wamp64\www\project\src" />
+      <recent name="C:\wamp64\www\project\src\EvenementBundle\Resources\views\Default" />
+      <recent name="C:\wamp64\www\project\web\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html.twig" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/AccueilBundle/Resources/views/Default/index.html.twig">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html.twig" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80274e09-7ecc-4b2f-b290-981e7e4379c7" name="Default Changelist" comment="" />
+      <created>1541889476910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541889476910</updated>
+      <workItem from="1541889479299" duration="23472000" />
+      <workItem from="1542011751919" duration="1748000" />
+      <workItem from="1542014407408" duration="211000" />
+      <workItem from="1542014745630" duration="2472000" />
+      <workItem from="1542021780874" duration="3970000" />
+      <workItem from="1542104103260" duration="2000000" />
+      <workItem from="1542106403940" duration="5138000" />
+      <workItem from="1542112678564" duration="6389000" />
+      <workItem from="1542123978505" duration="4555000" />
+      <workItem from="1542207484454" duration="3503000" />
+      <workItem from="1542222612690" duration="16098000" />
+      <workItem from="1542353099114" duration="237000" />
+      <workItem from="1543008784400" duration="2208000" />
+      <workItem from="1543053690734" duration="7736000" />
+      <workItem from="1543133561630" duration="13039000" />
+      <workItem from="1543173202896" duration="3726000" />
+      <workItem from="1543184934040" duration="7803000" />
+      <workItem from="1543222848855" duration="18118000" />
+      <workItem from="1543258444714" duration="3827000" />
+      <workItem from="1543266834950" duration="15292000" />
+      <workItem from="1543352595956" duration="7721000" />
+      <workItem from="1543394623658" duration="14597000" />
+      <workItem from="1543486300153" duration="4902000" />
+      <workItem from="1543520505995" duration="8842000" />
+      <workItem from="1543563307193" duration="2021000" />
+      <workItem from="1543648207005" duration="2355000" />
+      <workItem from="1543660865430" duration="1853000" />
+      <workItem from="1543746261550" duration="4453000" />
+      <workItem from="1543825436048" duration="14901000" />
+      <workItem from="1543931473550" duration="3887000" />
+      <workItem from="1543938298908" duration="1861000" />
+      <workItem from="1543940211099" duration="5132000" />
+      <workItem from="1544001178986" duration="11290000" />
+      <workItem from="1544015338212" duration="9464000" />
+      <workItem from="1544690993665" duration="1239000" />
+      <workItem from="1545651009457" duration="2146000" />
+      <workItem from="1545655584107" duration="3566000" />
+      <workItem from="1545671859391" duration="233000" />
+      <workItem from="1545743721422" duration="321000" />
+      <workItem from="1545919577513" duration="898000" />
+      <workItem from="1546185185773" duration="3783000" />
+      <workItem from="1546258115634" duration="503000" />
+      <workItem from="1546284565920" duration="4996000" />
+      <workItem from="1546372661506" duration="280000" />
+      <workItem from="1546373088923" duration="2597000" />
+      <workItem from="1546419502988" duration="4455000" />
+      <workItem from="1546432908507" duration="1199000" />
+      <workItem from="1547399899278" duration="2012000" />
+      <workItem from="1547502563322" duration="1294000" />
+      <workItem from="1547547945583" duration="2929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="267035000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="22" y="52" width="1346" height="688" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23250389" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="10" sideWeight="0.49848714" visible="true" weight="0.31751227" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.31751227" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3267776" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="10" sideWeight="0.49924356" visible="true" weight="0.31751227" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.8527005" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/empruntClient/index2.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jquery.rateyo.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/jquery.rateyo.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/mail.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParticipantBundle/Tests/Controller/EventControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AchatBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="44" column="81" selection-start-line="44" selection-start-column="81" selection-end-line="44" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/mailform.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Controller/MailController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="83" column="132" selection-start-line="83" selection-start-column="132" selection-end-line="83" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AchatBundle/Resources/views/Default/shopGrid.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="145" column="47" selection-start-line="145" selection-start-column="47" selection-end-line="145" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LivreBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmpruntBundle/Resources/config/routing/reclamation.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaisonEditionBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EchangeBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MlkStatBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AuteurBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminForumBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseAdmin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="198" column="52" selection-start-line="198" selection-start-column="52" selection-end-line="198" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AchatBundle/Entity/Bought.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="214" column="25" selection-start-line="214" selection-start-column="22" selection-end-line="214" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AchatBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AccueilBundle/AccueilBundle.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LivreBundle/Entity/Livres.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="288" column="20" selection-start-line="288" selection-start-column="20" selection-end-line="288" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="108" selection-start-line="19" selection-start-column="108" selection-end-line="19" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParticipantBundle/ParticipantBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParticipantBundle/Resources/views/Default/index2.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PanierBundle/Resources/views/Default/panier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2822">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaisonEditionBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Resources/views/Default/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LivreBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EchangeBundle/Resources/views/Default/Gmap.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="42" column="117" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LocauxBundle/Form/LocauxType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForumMobilBundle/Controller/TopicController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParticipantBundle/Controller/EventController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7650">
+          <caret line="454" selection-start-line="454" selection-end-line="454" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParticipantBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LivreBundle/Controller/LivresController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="e#42#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenementBundle/Controller/EventController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3961">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PanierBundle/Entity/Panier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseClient.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PanierBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="87" selection-start-line="54" selection-start-column="87" selection-end-line="54" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LivreBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PanierBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="e#43#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AccueilBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

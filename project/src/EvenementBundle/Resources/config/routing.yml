@@ -1,0 +1,66 @@
+event_index:
+    path:     /
+    defaults: { _controller: "EvenementBundle:Event:index" }
+    methods:  GET
+
+event_show:
+    path:     /{id}/show
+    defaults: { _controller: "EvenementBundle:Event:show" }
+    methods:  GET
+
+
+
+event_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "EvenementBundle:Event:edit" }
+    methods:  [GET, POST]
+
+event_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "EvenementBundle:Event:delete" }
+    methods:  DELETE
+
+event_search:
+    path:     /search
+    defaults: { _controller: "EvenementBundle:Event:search" }
+
+
+
+event_stat:
+    path:     /stat
+    defaults: { _controller: "EvenementBundle:Stat:Stat" }
+
+
+event_supprimer:
+    path:     /{id}/supprimer
+    defaults: { _controller: "EvenementBundle:Event:supprimer" }
+
+event_ajout:
+    path:     /ajout
+    defaults: { _controller: "EvenementBundle:Event:ajouter" }
+    methods:  [GET, POST]
+
+
+event_mail:
+    path: /mail
+    defaults: { _controller: "EvenementBundle:Mail:index" }
+
+event_accuse:
+    path: /success
+    defaults: { _controller: "EvenementBundle:Mail:success" }
+
+event_all:
+    path: /all
+    defaults: { _controller: "EvenementBundle:Event:all" }
+
+event_editmobile:
+    path:     /editmobile/{id}
+    defaults: { _controller: "EvenementBundle:Event:editmobile" }
+    methods:  [GET, POST]
+
+event_supprimermobile:
+    path:     /supprimermobile/{id}
+    defaults: { _controller: "EvenementBundle:Event:supprimermobile" }
+
+
+

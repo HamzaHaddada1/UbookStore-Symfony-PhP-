@@ -1,0 +1,44 @@
+/*********************************************************************************
+
+	Template Name: Boighor Bookshop Responsive Bootstrap4 Template  
+	Description: Template description
+	Version: 1.0
+	Note: This is custom css. All custom styles (user styles) declare here.
+
+**********************************************************************************/
+.blocking-background{
+    background-color: rgba(156, 167, 156, 0.36);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+}
+
+.popup{
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    z-index: 102;
+    top: calc(50vh - 100px);
+    left: calc(50vw - 250px);
+}
+
+.submit-button{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 26px;
+    border: 0px;
+    transition: all 0.3s ease 0s;
+}
+
+#submit-update:hover{
+    background: #00a06b none repeat scroll 0 0;
+    color: #fff;
+}

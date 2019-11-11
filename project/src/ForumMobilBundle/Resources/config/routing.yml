@@ -1,0 +1,51 @@
+forum_mobil_homepage:
+    path:     /
+    defaults: { _controller: ForumMobilBundle:Default:index }
+
+create_topic:
+    path: /newTopic
+    defaults: { _controller: ForumMobilBundle:Topic:newTopic }
+
+show_topic:
+    path: /showTopic
+    defaults: { _controller: ForumMobilBundle:Topic:showTopic }
+
+delete_topic:
+    path:     /deleteTopic/{idtopic}
+    defaults: { _controller: ForumMobilBundle:Topic:deleteTopic }
+
+update_topic:
+    path:     /UpdateTopic
+    defaults: { _controller: ForumMobilBundle:Topic:UpdateTopic }
+
+show_cmmt_topic:
+    path:     /showComments/{idtopic}
+    defaults: { _controller: ForumMobilBundle:Topic:showTopicCmmt }
+
+siganl_cmmt:
+    path:     /siganlcmmt
+    defaults: { _controller: ForumMobilBundle:Topic:siganlcmmt }
+
+like_cmmt:
+    path:     /likecmmt
+    defaults: { _controller: ForumMobilBundle:Topic:likecmmt }
+
+delete_cmmt:
+    path:     /deletecmmt/{idcmmt}
+    defaults: { _controller: ForumMobilBundle:Topic:deletecmmt }
+
+update_cmmt:
+    path:     /updtcmmt
+    defaults: { _controller: ForumMobilBundle:Topic:updatecmmt }
+
+add_cmmt:
+    path:     /{idt}/addCmmt
+    defaults: { _controller: ForumMobilBundle:Topic:addCmmt }
+
+get_all_cmmts:
+    path:     /allCmmt
+    defaults: { _controller: ForumMobilBundle:Topic:getAllCmmt }
+
+get_all_usrs:
+    path:     /allusr
+    defaults: { _controller: ForumMobilBundle:Topic:getAllUsers }
